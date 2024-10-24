@@ -4,7 +4,7 @@ import eslint from 'vite-plugin-eslint';
 import { defineConfig } from "vite"
  
 export default defineConfig({
-  plugins: [react(),eslint()],
+  plugins: [react(), eslint()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
